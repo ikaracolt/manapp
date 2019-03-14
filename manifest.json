@@ -1,0 +1,7 @@
+{
+  "name": "man app",
+  "short_name": "man app",
+  "lang": "en-CA",
+  "start_url": "ikaracolt.github.io/manapp/",
+  "display": "standalone"
+}
