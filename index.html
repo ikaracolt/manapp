@@ -34,7 +34,7 @@
         <div class="header_stat_left-copy">
           <h1 class="header_stat_item_title">Merch</h1>
 
-          <h1 class="header_stat_item_totall">$8.14M</h1>
+          <h2 class="header_stat_item_totall">$8.14M</h1>
         </div>
         <div class="header_stat_left">
           <h1 class="header_stat_item_title">$ / Head</h1>
@@ -156,7 +156,7 @@
   var count = 8.14;
   function tick(){
       count += Math.round(Math.random()*13);
-      $('h1').text(count);
+      $('h2').text(count);
       setTimeout(tick,Math.round(1000+Math.random()*4000));
   }
   tick();
