@@ -2,7 +2,7 @@
   "name": "Man App",
   "short_name": "Man App",
   "lang": "en-CA",
-  "start_url": "ikaracolt.github.io/manapp/",
+  "start_url": "https://ikaracolt.github.io/manapp/",
   "display": "standalone",
   "scope": "/manapp/"
 }
