@@ -706,5 +706,10 @@
     -ms-flex-align: center;
     align-items: center;
   }
+  .link-block-2 {
+    position: absolute;
+    left: 15px;
+    top: 50px;
+  }
 }
 
