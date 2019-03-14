@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="8px" height="12px" viewBox="0 0 8 12" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 53.2 (72643) - https://sketchapp.com -->
+    <title>Page 1</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <polygon id="path-1" points="0 0 10.8333333 0 10.8333333 7.2 0 7.2"></polygon>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="mainscreen" transform="translate(-342.000000, -483.000000)">
+            <g id="Page-1" transform="translate(346.400000, 489.100000) rotate(-90.000000) translate(-346.400000, -489.100000) translate(340.900000, 485.100000)">
+                <mask id="mask-2" fill="white">
+                    <use xlink:href="#path-1"></use>
+                </mask>
+                <g id="Clip-2"></g>
+                <path d="M5.41666667,7.2 L0.284927029,1.76033139 C-0.0949756764,1.3576327 -0.0949756764,0.704722706 0.284927029,0.302024017 C0.664859667,-0.100674672 1.28080971,-0.100674672 1.66068248,0.302024017 L5.41666667,4.28338526 L9.17265085,0.302024017 C9.55255356,-0.100674672 10.1685036,-0.100674672 10.5484063,0.302024017 C10.928309,0.704722706 10.928309,1.3576327 10.5484063,1.76033139 L5.41666667,7.2 Z" id="Fill-1" fill="#BBBBBB" mask="url(#mask-2)"></path>
+            </g>
+        </g>
+    </g>
+</svg>
