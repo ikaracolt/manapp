@@ -33,11 +33,12 @@
       <div data-w-id="6f2bf100-74fb-147c-f3b7-f210f95d007d" style="opacity:0" class="header_stats_container">
         <div class="header_stat_left-copy">
           <h1 class="header_stat_item_title">Merch</h1>
-          
+
           <h1 class="header_stat_item_totall">$8.14M</h1>
         </div>
         <div class="header_stat_left">
           <h1 class="header_stat_item_title">$ / Head</h1>
+          <span></span>
           <h1 class="header_stat_item_totall">$80.05</h1>
         </div>
       </div>
@@ -152,14 +153,15 @@
   <script src="js/webflow.js" type="text/javascript"></script>
   <!-- [if lte IE 9]><script src="https://cdnjs.cloudflare.com/ajax/libs/placeholders/3.0.2/placeholders.min.js"></script><![endif] -->
   <script>
-jQuery(document).ready(function($) {
-  $("h1.header_stat_item_totall").counterUp({
-    delay: 500, /* The delay in milliseconds per number count up */
-    time: 3000000, /*The total duration of the count up animation */
+  var count = 55555;
+  function tick(){
+      count += Math.round(Math.random()*5);
+      $('span').text(count);
+      setTimeout(tick,Math.round(1000+Math.random()*2000));
+  }
+  tick();
 
-    /*The viewport percentile from which the counter starts (by default it's 100, meaning it's triggered at the very moment the element enters the viewport) */
-  });
-});
+
 </script>
 </body>
 </html>
