@@ -4,5 +4,5 @@
   "lang": "en-CA",
   "start_url": "ikaracolt.github.io/manapp/",
   "display": "standalone",
-  "scope": "/manapp/",
+  "scope": "/manapp/"
 }
