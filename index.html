@@ -155,9 +155,9 @@
   <script>
   var count = 8.14;
   function tick(){
-      count += Math.round(Math.random()*5);
+      count += Math.round(Math.random()*13);
       $('h1').text(count);
-      setTimeout(tick,Math.round(10+Math.random()*20));
+      setTimeout(tick,Math.round(1000+Math.random()*4000));
   }
   tick();
 
