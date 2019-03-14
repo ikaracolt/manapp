@@ -6,13 +6,22 @@
   <meta charset="utf-8">
   <title>Man App</title>
 
+<script>
+var eventHandler = function (event) {
+    // Only run for iOS full screen apps
+    if (('standalone' in window.navigator) && window.navigator.standalone) {
+        // Only run if link is an anchor and points to the current page
+        if ( event.target.tagName.toLowerCase() !== 'a' || event.target.hostname !== window.location.hostname || event.target.pathname !== window.location.pathname || !/#/.test(event.target.href) ) return;
 
-<meta name="mobile-web-app-capable" content="yes">
-<meta name="apple-mobile-web-app-capable" content="yes">
-<meta name="application-name" content="man app">
-<meta name="apple-mobile-web-app-title" content="man app">
-<meta name="msapplication-starturl" content="ikaracolt.github.io/manapp/">
-<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        // Open link in same tab
+        event.preventDefault();
+        window.location = event.target.href;
+    }
+}
+window.addEventListener('click', eventHandler, false);
+</script>
+
+
 <link rel="manifest" href="manifest.json">
 
   <meta content="width=device-width, initial-scale=1" name="viewport">
