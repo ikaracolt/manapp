@@ -33,7 +33,7 @@
       <div data-w-id="6f2bf100-74fb-147c-f3b7-f210f95d007d" style="opacity:0" class="header_stats_container">
         <div class="header_stat_left-copy">
           <h1 class="header_stat_item_title">Merch</h1>
-          <span class="counter">1,000,000</span>
+          
           <h1 class="header_stat_item_totall">$8.14M</h1>
         </div>
         <div class="header_stat_left">
@@ -153,10 +153,10 @@
   <!-- [if lte IE 9]><script src="https://cdnjs.cloudflare.com/ajax/libs/placeholders/3.0.2/placeholders.min.js"></script><![endif] -->
   <script>
 jQuery(document).ready(function($) {
-  $("span.counter").counterUp({
-    delay: 75, /* The delay in milliseconds per number count up */
-    time: 3000, /*The total duration of the count up animation */
-    
+  $("h1.header_stat_item_totall").counterUp({
+    delay: 500, /* The delay in milliseconds per number count up */
+    time: 3000000, /*The total duration of the count up animation */
+
     /*The viewport percentile from which the counter starts (by default it's 100, meaning it's triggered at the very moment the element enters the viewport) */
   });
 });
