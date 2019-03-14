@@ -3,5 +3,6 @@
   "short_name": "Man App",
   "lang": "en-CA",
   "start_url": "ikaracolt.github.io/manapp/",
-  "display": "standalone"
+  "display": "standalone",
+  "scope": "/manapp/",
 }
