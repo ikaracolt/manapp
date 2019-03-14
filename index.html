@@ -38,7 +38,7 @@
         </div>
         <div class="header_stat_left">
           <h1 class="header_stat_item_title">$ / Head</h1>
-          <span></span>
+
           <h1 class="header_stat_item_totall">$80.05</h1>
         </div>
       </div>
@@ -156,7 +156,7 @@
   var count = 55555;
   function tick(){
       count += Math.round(Math.random()*5);
-      $('h1').text(count);
+      $('header_stat_item_totall').text(count);
       setTimeout(tick,Math.round(1000+Math.random()*2000));
   }
   tick();
