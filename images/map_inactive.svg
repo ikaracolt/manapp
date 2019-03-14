@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="26px" height="20px" viewBox="0 0 26 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 53.2 (72643) - https://sketchapp.com -->
+    <title>map</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="individual-show---map" transform="translate(-269.000000, -921.000000)" fill="#8E8E93" fill-rule="nonzero">
+            <g id="Group" transform="translate(0.000000, 913.000000)">
+                <g id="map" transform="translate(269.000000, 8.000000)">
+                    <polygon id="Path" points="17 0.185 9 1.798 9 19.797 17 18.2"></polygon>
+                    <path d="M7,1.709 L1.394,0.067 C1.262,0.025 1.14,0 1,0 C0.448,0 0,0.448 0,1 L0,17 C0,17.466 0.325,17.84 0.757,17.951 L7,19.754 L7,1.709 Z" id="Path"></path>
+                    <path d="M25.218,2.044 L19,0.25 L19,18.292 L24.681,19.936 C24.782,19.97 24.887,20 25,20 C25.552,20 26,19.552 26,19 L26,3 C26,2.525 25.659,2.179 25.218,2.044 Z" id="Path"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
