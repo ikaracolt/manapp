@@ -156,7 +156,7 @@
   <script>
   var count = 8.14;
   function tick(){
-      count += Math.round(Math.random()*1000)/1000;
+      count += Math.round(Math.random()*100)/100;
       $('h2').text(count);
       setTimeout(tick,Math.round(1000+Math.random()*4000));
   }
