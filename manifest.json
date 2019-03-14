@@ -5,7 +5,7 @@
   "theme_color": "#26c1eb",
   "start_url": "https://ikaracolt.github.io/manapp/",
   "display": "standalone",
-  "scope": "/manapp/"
+  "scope": "/manapp/",
   "icons": [
    {
      "src": "app_icon.png"
