@@ -54,7 +54,7 @@
           <div class="image_thumbnail"><img src="images/food_beverage_icon.svg" alt=""></div>
           <div class="verticals_item_info">
             <h1 class="verticals_item_title">Food/Beverage</h1>
-            <h1 class="verticals_item_total">$6.5M</h1>
+            <h1 class="verticals_item_total"><span class="counter">1,000,000</span></h1>
           </div>
         </div>
       </div>
@@ -150,5 +150,15 @@
   <script src="https://d1tdp7z6w94jbb.cloudfront.net/js/jquery-3.3.1.min.js" type="text/javascript" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
   <script src="js/webflow.js" type="text/javascript"></script>
   <!-- [if lte IE 9]><script src="https://cdnjs.cloudflare.com/ajax/libs/placeholders/3.0.2/placeholders.min.js"></script><![endif] -->
+  <script>
+jQuery(document).ready(function($) {
+  $("span.counter").counterUp({
+    delay: 75, /* The delay in milliseconds per number count up */
+    time: 3000, /*The total duration of the count up animation */
+    offset: 100,
+    /*The viewport percentile from which the counter starts (by default it's 100, meaning it's triggered at the very moment the element enters the viewport) */
+  });
+});
+</script>
 </body>
 </html>
