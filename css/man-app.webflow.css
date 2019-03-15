@@ -773,6 +773,7 @@
     -webkit-align-items: center;
     -ms-flex-align: center;
     align-items: center;
+    text-decoration: none;
   }
   .tabs-menu-2 {
     display: -webkit-box;
@@ -970,6 +971,7 @@
     -webkit-align-items: center;
     -ms-flex-align: center;
     align-items: center;
+    text-decoration: none;
   }
   .tabs {
     padding-top: 20px;
