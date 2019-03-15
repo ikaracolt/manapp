@@ -168,7 +168,7 @@
 var count = 1.11;
 function tick2(){
     count += Math.round(Math.random()*100)/100;
-    $('.food_millions').text(String(count).substr(0,5));
+    $('.food_millions').text(String(count).substr(0,3));
     setTimeout(tick2,Math.round(250+Math.random()*32000));
 }
 tick2();
