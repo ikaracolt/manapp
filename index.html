@@ -158,7 +158,7 @@
   var count1 = 1.23;
   function tick1(){
       count1 += Math.round(Math.random()*100)/100;
-      $('.millions').text(String(count).substr(0,5));
+      $('.millions').text(String(count1).substr(0,5));
       setTimeout(tick1,Math.round(250+Math.random()*20000));
   }
   tick1();
@@ -168,7 +168,7 @@
 var count2 = 1.11;
 function tick2(){
     count2 += Math.round(Math.random()*100)/100;
-    $('.food_millions').text(String(count).substr(0,5));
+    $('.food_millions').text(String(count2).substr(0,5));
     setTimeout(tick2,Math.round(250+Math.random()*32000));
 }
 tick2();
@@ -178,7 +178,7 @@ tick2();
 var count3 = 100;
 function tick3(){
     count3 += Math.round(Math.random()*100)/100;
-    $('.parking_k').text(String(count).substr(0,3));
+    $('.parking_k').text(String(count3).substr(0,3));
     setTimeout(tick3,Math.round(250+Math.random()*32000));
 }
 tick3();
