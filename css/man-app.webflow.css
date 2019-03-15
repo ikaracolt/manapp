@@ -529,6 +529,7 @@
     border-bottom-left-radius: 3px;
     background-color: transparent;
     color: #26c1eb;
+    max-width:125px;
   }
   .tab-link-tab-1.w--current {
     height: 27px;
@@ -563,6 +564,7 @@
     border-bottom-right-radius: 3px;
     background-color: transparent;
     color: #26c1eb;
+    max-width:125px;
   }
   .tab-link-tab-2.w--current {
     display: -webkit-box;
