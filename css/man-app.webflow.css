@@ -194,6 +194,7 @@
     font-size: 26px;
     line-height: 30px;
     font-weight: 500;
+    justify-content:center;
   }
   .header_historical_item_title {
     display: inline-block;
