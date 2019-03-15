@@ -27,7 +27,7 @@
     display: -ms-flexbox;
     display: flex;
     overflow: hidden;
-    margin-top: -65px;
+    margin-top: -50px;
     margin-right: 20px;
     margin-left: 20px;
     -webkit-box-orient: horizontal;
@@ -39,6 +39,7 @@
     background-color: #fff;
     box-shadow: 1px 1px 20px 0 rgba(0, 0, 0, .1);
     justify-content: space-between;
+    padding:20px;
   }
   .verticals_item {
     display: -webkit-box;
@@ -1071,7 +1072,7 @@
     display: -ms-flexbox;
     display: flex;
     overflow: hidden;
-    margin-top: -50px;
+    margin-top: -65px;
     margin-right: 20px;
     margin-left: 20px;
     -webkit-box-orient: vertical;
@@ -1082,7 +1083,6 @@
     border-radius: 12px;
     background-color: #fff;
     box-shadow: 1px 1px 20px 0 rgba(0, 0, 0, .1);
-    padding:20px;
   }
   .verticals_item {
     display: -webkit-box;
