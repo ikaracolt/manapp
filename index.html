@@ -158,8 +158,8 @@
   var count = 1.23;
   function tick1(){
       count += Math.round(Math.random()*100)/100;
-      $('.food_millions').text(String(count).substr(0,5));
-      setTimeout(tick1,Math.round(1000+Math.random()*16000));
+      $('.millions').text(String(count).substr(0,5));
+      setTimeout(tick1,Math.round(1000+Math.random()*20000));
   }
   tick1();
 </script>
@@ -168,8 +168,8 @@
 var count = 1.11;
 function tick2(){
     count += Math.round(Math.random()*100)/100;
-    $('.millions').text(String(count).substr(0,5));
-    setTimeout(tick2,Math.round(500+Math.random()*16000));
+    $('.food_millions').text(String(count).substr(0,5));
+    setTimeout(tick2,Math.round(500+Math.random()*32000));
 }
 tick2();
 </script>
