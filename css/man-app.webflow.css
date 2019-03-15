@@ -609,6 +609,7 @@
     -webkit-transform: translate(0px, 0px);
     -ms-transform: translate(0px, 0px);
     transform: translate(0px, 0px);
+    text-decoration: none;
   }
   .bottom_bar_left {
     display: -webkit-box;
@@ -1024,4 +1025,3 @@
     margin-top: 20px;
   }
 }
-
