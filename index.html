@@ -155,9 +155,9 @@
   <!-- [if lte IE 9]><script src="https://cdnjs.cloudflare.com/ajax/libs/placeholders/3.0.2/placeholders.min.js"></script><![endif] -->
 
   <script>
-  var count = 1.23;
+  var count1 = 1.23;
   function tick1(){
-      count += Math.round(Math.random()*100)/100;
+      count1 += Math.round(Math.random()*100)/100;
       $('.millions').text(String(count).substr(0,5));
       setTimeout(tick1,Math.round(250+Math.random()*20000));
   }
@@ -165,9 +165,9 @@
 </script>
 
 <script>
-var count = 1.11;
+var count2 = 1.11;
 function tick2(){
-    count += Math.round(Math.random()*100)/100;
+    count2 += Math.round(Math.random()*100)/100;
     $('.food_millions').text(String(count).substr(0,5));
     setTimeout(tick2,Math.round(250+Math.random()*32000));
 }
@@ -175,9 +175,9 @@ tick2();
 </script>
 
 <script>
-var count = 100;
+var count3 = 100;
 function tick3(){
-    count += Math.round(Math.random()*100)/100;
+    count3 += Math.round(Math.random()*100)/100;
     $('.parking_k').text(String(count).substr(0,3));
     setTimeout(tick3,Math.round(250+Math.random()*32000));
 }
