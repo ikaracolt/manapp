@@ -153,36 +153,24 @@
   <script src="js/webflow.js" type="text/javascript"></script>
 
   <!-- [if lte IE 9]><script src="https://cdnjs.cloudflare.com/ajax/libs/placeholders/3.0.2/placeholders.min.js"></script><![endif] -->
-
   <script>
-  var count1 = 1.23;
-  function tick1(){
-      count1 += Math.round(Math.random()*100)/100;
-      $('.millions').text(String(count1).substr(0,5));
-      setTimeout(tick1,Math.round(250+Math.random()*20000));
-  }
-  tick1();
-</script>
+      function makeThisNumberGoUp(number, numberLength, divClass, timerMax) {
+          function tick() {
+              number += Math.round(Math.random() * 100) / 100;
+              $(divClass).text(String(number).substr(0, numberLength));
+              setTimeout(tick, Math.round(250 + Math.random() * timerMax));
+          };
+          tick();
+      };
+      makeThisNumberGoUp(1.23, 5, '.millions', 20000);
+      makeThisNumberGoUp(1.11, 5, '.food_millions', 20000);
+      makeThisNumberGoUp(100, 3, '.parking_k', 32000);
+  </script>
 
-<script>
-var count2 = 1.11;
-function tick2(){
-    count2 += Math.round(Math.random()*100)/100;
-    $('.food_millions').text(String(count2).substr(0,5));
-    setTimeout(tick2,Math.round(10000+Math.random()*32000));
-}
-tick2();
-</script>
 
-<script>
-var count3 = 100;
-function tick3(){
-    count3 += Math.round(Math.random()*100)/100;
-    $('.parking_k').text(String(count3).substr(0,3));
-    setTimeout(tick3,Math.round(250+Math.random()*32000));
-}
-tick3();
-</script>
+
+
+  
 
 </body>
 </html>
