@@ -242,6 +242,7 @@
     display: -ms-flexbox;
     display: flex;
     height: 65px;
+    width:50%;
   }
   .artist_item {
     position: relative;
