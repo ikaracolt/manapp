@@ -943,12 +943,14 @@
     color: #26c1eb;
     font-size: 10px;
     text-align: center;
+    text-decoration: none;
   }
   .tab_inactive {
     font-family: Roboto, sans-serif;
     color: #bbb;
     font-size: 10px;
     text-align: center;
+    text-decoration: none;
   }
   .link-block-5 {
     display: -webkit-box;
