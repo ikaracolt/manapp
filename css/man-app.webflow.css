@@ -1026,4 +1026,11 @@
   .tab-pane-merch {
     margin-top: 20px;
   }
+  .counter_area {
+    position: relative;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+  }
 }
