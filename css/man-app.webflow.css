@@ -1135,6 +1135,7 @@
     font-size: 12px;
     line-height: 16px;
     font-weight: 500;
+    text-align: left;
   }
   .verticals_item_total {
     display: inline-block;
@@ -2082,5 +2083,6 @@
     display: -webkit-flex;
     display: -ms-flexbox;
     display: flex;
+    justify-content:flex-start;
   }
 }
