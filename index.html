@@ -169,7 +169,7 @@ var count = 0.55;
 function tick(){
     count += Math.round(Math.random()*100)/100;
     $('.food_millions').text(String(count).substr(0,5));
-    setTimeout(tick,Math.round(1000+Math.random()*8000));
+    setTimeout(tick,Math.round(300+Math.random()*8000));
 }
 tick();
 </script>
