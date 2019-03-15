@@ -1291,6 +1291,7 @@
     display: -ms-flexbox;
     display: flex;
     height: 65px;
+    width:100%;
   }
   .artist_item {
     position: relative;
@@ -2336,6 +2337,7 @@
     display: -ms-flexbox;
     display: flex;
     height: 65px;
+    width:100%;
   }
   .artist_item {
     position: relative;
