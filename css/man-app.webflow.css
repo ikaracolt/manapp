@@ -859,6 +859,11 @@
   }
 
   .food_beverage_counter {
+    font-family: Roboto, sans-serif;
+    color: #606060;
+    font-size: 22px;
+    line-height: 30px;
+    font-weight: 500;
     display: -webkit-box;
     display: -webkit-flex;
     display: -ms-flexbox;
