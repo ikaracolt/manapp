@@ -174,5 +174,15 @@ function tick2(){
 tick2();
 </script>
 
+<script>
+var count = 100;
+function tick3(){
+    count += Math.round(Math.random()*100)/100;
+    $('.parking_k').text(String(count).substr(0,5));
+    setTimeout(tick3,Math.round(250+Math.random()*32000));
+}
+tick3();
+</script>
+
 </body>
 </html>
