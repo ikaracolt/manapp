@@ -373,7 +373,7 @@
     display: -webkit-flex;
     display: -ms-flexbox;
     display: flex;
-    width: 60%;
+    width: 80%;
   }
   .show_list_labels_right {
     width: 20%;
@@ -1422,7 +1422,7 @@
     display: -webkit-flex;
     display: -ms-flexbox;
     display: flex;
-    width: 60%;
+    width: 80%;
   }
   .show_list_labels_right {
     width: 20%;
