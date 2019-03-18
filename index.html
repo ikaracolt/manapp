@@ -34,7 +34,7 @@
         <div class="header_stat_left-copy">
           <h1 class="header_stat_item_title">Gross Sales</h1>
 
-        <div class="counter_area"><h1 class="header_stat_item_totall">$</h1><h1 class="header_stat_item_totall millions"></h1><h1 class="header_stat_item_totall">M</h1></div>
+        <div class="counter_area flashmillions"><h1 class="header_stat_item_totall ">$</h1><h1 class="header_stat_item_totall millions"></h1><h1 class="header_stat_item_totall">M</h1></div>
         </div>
         <div class="header_stat_left">
           <h1 class="header_stat_item_title">$ / Head</h1>
@@ -49,14 +49,14 @@
           <div class="image_thumbnail"><img src="images/merch_icon.svg" alt=""></div>
           <div class="verticals_item_info">
             <h1 class="verticals_item_title">Merch</h1>
-            <div class="parking_counter"><h1 class="verticals_item_total">$</h1><h1 class="verticals_item_total merch_k"></h1><h1 class="verticals_item_total">K</h1></div>
+            <div class="parking_counter flashmerch"><h1 class="verticals_item_total">$</h1><h1 class="verticals_item_total merch_k"></h1><h1 class="verticals_item_total">K</h1></div>
           </div>
         </div>
         <div data-w-id="53e31ff1-eff5-158a-9595-d53315f37519" style="-webkit-transform:translate3d(0, 20PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 20PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 20PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 20PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);opacity:0" class="verticals_item">
           <div class="image_thumbnail"><img src="images/food_beverage_icon.svg" alt=""></div>
           <div class="verticals_item_info">
             <h1 class="verticals_item_title">Food/Beverage</h1>
-            <div class="food_beverage_counter"><h1 class="verticals_item_total" >$</h1><h1 class="verticals_item_total food_millions" ></h1><h1 class="verticals_item_total">M</h1></div>
+            <div class="food_beverage_counter flashbeverage"><h1 class="verticals_item_total" >$</h1><h1 class="verticals_item_total food_millions" ></h1><h1 class="verticals_item_total">M</h1></div>
           </div>
         </div>
       </div>
@@ -65,14 +65,14 @@
           <div class="image_thumbnail"><img src="images/parking_icon.svg" alt=""></div>
           <div class="verticals_item_info">
             <h1 class="verticals_item_title">Parking</h1>
-            <div class="parking_counter"><h1 class="verticals_item_total">$</h1><h1 class="verticals_item_total parking_k"></h1><h1 class="verticals_item_total">K</h1></div>
+            <div class="parking_counter flashparking"><h1 class="verticals_item_total">$</h1><h1 class="verticals_item_total parking_k"></h1><h1 class="verticals_item_total">K</h1></div>
           </div>
         </div>
         <div data-w-id="2dc0583d-61d5-0b51-108e-7ba5dc700178" style="-webkit-transform:translate3d(0, 20PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 20PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 20PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 20PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);opacity:0" class="verticals_item">
           <div class="image_thumbnail"><img src="images/attendance_icon.svg" alt=""></div>
           <div class="verticals_item_info">
             <h1 class="verticals_item_title">Attendance</h1>
-              <div class="parking_counter"><h1 class="verticals_item_total attendance_k"></h1><h1 class="verticals_item_total">K</h1></div>
+              <div class="parking_counter flashattendance"><h1 class="verticals_item_total attendance_k"></h1><h1 class="verticals_item_total">K</h1></div>
           </div>
         </div>
       </div>
@@ -157,22 +157,40 @@
 
   <!-- [if lte IE 9]><script src="https://cdnjs.cloudflare.com/ajax/libs/placeholders/3.0.2/placeholders.min.js"></script><![endif] -->
   <script>
-      function makeThisNumberGoUp(number, numberLength, divClass, timerMax) {
+      function makeThisNumberGoUp(number, numberLength, divClass, NumFlash, timerMax) {
           function tick() {
               number += Math.round(Math.random() * 100) / 100;
               $(divClass).text(String(number).substr(0, numberLength));
+              $(NumFlash).fadeIn(100).fadeOut(100).fadeIn(500);
               setTimeout(tick, Math.round(250 + Math.random() * timerMax));
           };
           tick();
       };
-      makeThisNumberGoUp(2.1, 5, '.millions', 20000);
-      makeThisNumberGoUp(1.11, 5, '.food_millions', 20000);
-      makeThisNumberGoUp(100, 3, '.parking_k', 32000);
-      makeThisNumberGoUp(123, 3, '.merch_k', 24000);
-      makeThisNumberGoUp(11, 2, '.attendance_k', 24000);
+      makeThisNumberGoUp(2.1, 5, '.millions', '.flashmillions', 20000);
+      makeThisNumberGoUp(1.11, 5, '.food_millions', '.flashbeverage', 20000);
+      makeThisNumberGoUp(100, 3, '.parking_k', '.flashparking', 32000);
+      makeThisNumberGoUp(123, 3, '.merch_k', '.flashmerch', 24000);
+      makeThisNumberGoUp(11, 2, '.attendance_k', '.flashattendance', 24000);
   </script>
 
+<!-- <script>
+  function makeThisNumberGoUp(number, numberLength, divClass, timerMax) {
+      function tick() {
+          number += Math.round(Math.random() * 100) / 100;
+          $(divClass).text(String(number).substr(0, numberLength));
+          setTimeout(tick, Math.round(250 + Math.random() * timerMax));
+      };
+      tick();
+  };
+  makeThisNumberGoUp(2.1, 5, '.millions', 20000);
+  makeThisNumberGoUp(1.11, 5, '.food_millions', 20000);
+  makeThisNumberGoUp(100, 3, '.parking_k', 32000);
+  makeThisNumberGoUp(123, 3, '.merch_k', 24000);
+  makeThisNumberGoUp(11, 2, '.attendance_k', 24000);
+</script> -->
 
+  
+  
 
 
 
