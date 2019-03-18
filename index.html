@@ -9,13 +9,12 @@
   <meta content="width=device-width, initial-scale=1" name="viewport">
   <meta content="Webflow" name="generator">
   
-<link rel="stylesheet" type="text/css" href="css/jquery-ui.css" media="all" />
+  <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/smoothness/jquery-ui.css">
   <link href="css/normalize.css" rel="stylesheet" type="text/css">
   <link href="css/webflow.css" rel="stylesheet" type="text/css">
   <link href="css/man-app.webflow.css" rel="stylesheet" type="text/css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-  <script type="text/javascript" src="js/jquery-ui-min.js"></script>
-  <script type="text/javascript" src="js/jquery-ui.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
   
   <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.4.7/webfont.js" type="text/javascript"></script>
   <script type="text/javascript">WebFont.load({  google: {    families: ["Roboto:300,regular,500,700,900"]  }});</script>
@@ -45,7 +44,7 @@
         <div class="header_stat_left">
           <h1 class="header_stat_item_title">$ / Head</h1>
 
-          <h1 class="header_stat_item_totall">$80.05</h1>
+          <h1 class="header_stat_item_dollarhead">$80.05</h1>
         </div>
       </div>
     </div>
@@ -53,7 +52,7 @@
       <div class="verticals_list_row">
         <div data-w-id="aadaf3db-c198-310e-6997-a2726959bc88" style="-webkit-transform:translate3d(0, 20PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 20PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 20PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 20PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);opacity:0" class="verticals_item">
           <div class="image_thumbnail"><img src="images/merch_icon.svg" alt=""></div>
-          <div class="verticals_item_info">
+          <div id="red" class="verticals_item_info">
             <h1 class="verticals_item_title">Merch</h1>
             <div class="parking_counter flashmerch"><h1 class="verticals_item_total">$</h1><h1 class="verticals_item_total merch_k"></h1><h1 class="verticals_item_total">K</h1></div>
           </div>
@@ -158,31 +157,70 @@
       </div>
     </div>
   </div>
-  <script src="https://d1tdp7z6w94jbb.cloudfront.net/js/jquery-3.3.1.min.js" type="text/javascript" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+  
   <script src="js/webflow.js" type="text/javascript"></script>
 
   <!-- [if lte IE 9]><script src="https://cdnjs.cloudflare.com/ajax/libs/placeholders/3.0.2/placeholders.min.js"></script><![endif] -->
+  
+  
+
   <script>
-      function makeThisNumberGoUp(number, numberLength, divClass, NumFlash, timerMax) {
+    $(document).ready(function() {
+      function makeThisNumberGoUp(number, numberLength, divClass, ColorFlash, timerMax) {
           function tick() {
               var oldString = String(number).substr(0, numberLength);
               number += Math.round(Math.random() * 100) / 100;
               var newString = String(number).substr(0, numberLength);
               $(divClass).text(newString);
               if (oldString !== newString) {
-                $(NumFlash).fadeOut(100).fadeIn(1000); 
+               /*  $(NumFlash).fadeOut(100).fadeIn(1000);  */
+               $(ColorFlash).animate({color: "#36E089",}, 100); 
+               $(ColorFlash).animate({color: "#606060",}, 1000); 
+               
+               
+
               }
+              
 
               /* $(NumFlash).animate({color: 'red' }, 700);  */
               setTimeout(tick, Math.round(250 + Math.random() * timerMax));
           };
           tick();
       };
-      makeThisNumberGoUp(2.1, 5, '.millions', '.flashmillions', 20000);
+      
       makeThisNumberGoUp(1.11, 5, '.food_millions', '.flashbeverage', 20000);
       makeThisNumberGoUp(100, 3, '.parking_k', '.flashparking', 32000);
       makeThisNumberGoUp(123, 3, '.merch_k', '.flashmerch', 24000);
       makeThisNumberGoUp(11, 2, '.attendance_k', '.flashattendance', 24000);
+    });
+  </script>
+
+<script>
+    $(document).ready(function() {
+      function makeMainNumberGoUp(number, numberLength, divClass, ColorFlash, timerMax) {
+          function tick() {
+              var oldString = String(number).substr(0, numberLength);
+              number += Math.round(Math.random() * 100) / 100;
+              var newString = String(number).substr(0, numberLength);
+              $(divClass).text(newString);
+              if (oldString !== newString) {
+               /*  $(NumFlash).fadeOut(100).fadeIn(1000);  */
+               $(ColorFlash).animate({color: "#36E089",}, 100); 
+               $(ColorFlash).animate({color: "#fff",}, 1000); 
+               
+               
+
+              }
+              
+
+              /* $(NumFlash).animate({color: 'red' }, 700);  */
+              setTimeout(tick, Math.round(250 + Math.random() * timerMax));
+          };
+          tick();
+      };
+      makeMainNumberGoUp(2.1, 5, '.millions', '.flashmillions', 20000);
+      
+    });
   </script>
 
 <!-- <script>

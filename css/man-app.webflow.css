@@ -99,11 +99,27 @@
     margin-top: 0px;
     margin-bottom: 0px;
     font-family: Roboto, sans-serif;
-    color: #606060;
+    
     font-size: 22px;
     line-height: 30px;
     font-weight: 500;
   }
+
+  .verticals_item_total .food_millions {
+    color: #606060;
+  }
+
+  .parking_counter  {
+    color: #606060;
+  }
+
+  .counter_area .flashmillions {
+    color: #fff;
+  }
+
+  
+
+
   .verticals_item_historical {
     display: inline-block;
     margin-top: 0px;
@@ -192,12 +208,29 @@
     margin-top: 0px;
     margin-bottom: 0px;
     font-family: Roboto, sans-serif;
-    color: #fff;
+    
     font-size: 36px;
     line-height: 42px;
     font-weight: 500;
     justify-content:center;
   }
+
+  .header_stat_item_dollarhead {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-family: Roboto, sans-serif;
+    color: #fff;
+    font-size: 26px;
+    line-height: 30px;
+    font-weight: 500;
+    
+  }
+
+
   .header_historical_item_title {
     display: inline-block;
     margin-top: 10px;
@@ -1150,7 +1183,7 @@
     margin-top: 0px;
     margin-bottom: 0px;
     font-family: Roboto, sans-serif;
-    color: #606060;
+    
     font-size: 22px;
     line-height: 30px;
     font-weight: 500;
@@ -1243,7 +1276,7 @@
     margin-top: 0px;
     margin-bottom: 0px;
     font-family: Roboto, sans-serif;
-    color: #fff;
+    
     font-size: 36px;
     line-height: 42px;
     font-weight: 500;
@@ -2198,7 +2231,7 @@
     margin-top: 0px;
     margin-bottom: 0px;
     font-family: Roboto, sans-serif;
-    color: #606060;
+    
     font-size: 22px;
     line-height: 30px;
     font-weight: 500;
@@ -2291,7 +2324,7 @@
     margin-top: 0px;
     margin-bottom: 0px;
     font-family: Roboto, sans-serif;
-    color: #fff;
+    
     font-size: 26px;
     line-height: 30px;
     font-weight: 500;
@@ -3244,7 +3277,7 @@
     margin-top: 0px;
     margin-bottom: 0px;
     font-family: Roboto, sans-serif;
-    color: #606060;
+    
     font-size: 22px;
     line-height: 30px;
     font-weight: 500;
@@ -3337,7 +3370,7 @@
     margin-top: 0px;
     margin-bottom: 0px;
     font-family: Roboto, sans-serif;
-    color: #fff;
+    
     font-size: 26px;
     line-height: 30px;
     font-weight: 500;
