@@ -1080,11 +1080,11 @@
     display: flex;
     justify-content:center;
   }
-  @media only screen 
-    and (width : 375px) 
-    and (height : 635px)
-    and (orientation : portrait)  
-    and (-webkit-device-pixel-ratio : 3) { 
+
+
+  @media only screen and (device-width : 375px) and (device-height : 812px) and (-webkit-device-pixel-ratio : 3) {
+
+  
       .bottom_tab_bar {
         height: 90px;
       }
