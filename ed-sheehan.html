@@ -228,9 +228,9 @@
                 var newString = String(number).substr(0, numberLength);
                 $(divClass).text(newString);
                 if (oldString !== newString) {
-                 /*  $(NumFlash).fadeOut(100).fadeIn(1000);  */
+                /*  $(NumFlash).fadeOut(100).fadeIn(1000); */
                  $(ColorFlash).animate({color: "#36E089",}, 100); 
-                 $(ColorFlash).animate({color: "#606060",}, 1000); 
+                 $(ColorFlash).animate({color: "#606060",}, 1000);
                  }
                 
   
@@ -256,7 +256,7 @@
                 var newString = String(number).substr(0, numberLength);
                 $(divClass).text(newString);
                 if (oldString !== newString) {
-                 /*  $(NumFlash).fadeOut(100).fadeIn(1000);  */
+                /*  $(NumFlash).fadeOut(100).fadeIn(1000); */
                  $(ColorFlash).animate({color: "#36E089",}, 100); 
                  $(ColorFlash).animate({color: "#fff",}, 1000); 
                  }
@@ -271,6 +271,18 @@
         
       });
     </script>
+
+    <script>
+    
+    function shoutOut(threat) {
+      console.log('Yo, whats up Patna!' + threat);
+    }
+
+    shoutOut('Kill yo self foo');
+
+    </script>
+
+    
 
   <!-- [if lte IE 9]><script src="https://cdnjs.cloudflare.com/ajax/libs/placeholders/3.0.2/placeholders.min.js"></script><![endif] -->
 </body>
