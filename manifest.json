@@ -3,6 +3,7 @@
   "short_name": "Man App",
   "lang": "en-CA",
   "theme_color": "#26c1eb",
+  "background-color": "#26c1eb",
   "start_url": "https://ikaracolt.github.io/manapp/",
   "display": "standalone",
   "scope": "/manapp/",
