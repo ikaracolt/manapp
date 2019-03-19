@@ -1358,7 +1358,7 @@
   }
   .body {
 
-    background-image: linear-gradient(315deg, #1997d4, #26c1eb);
+    /* background-image: linear-gradient(315deg, #1997d4, #26c1eb); */
     background-color: #f8f8f8;
   }
   .artist_name {
