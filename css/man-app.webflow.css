@@ -1049,7 +1049,7 @@
     color: #26c1eb;
   }
   .tablink_middle.w--current {
-    background-color: hsla(192.79187817258884, 83.12%, 53.53%, 1.00);
+    /* background-color: hsla(192.79187817258884, 83.12%, 53.53%, 1.00); */
     color: #fff;
   }
   .text-block-11 {
