@@ -35,17 +35,26 @@
         <h1 class="artist_name_header">Ed Sheeran</h1>
         <h1 class="heading">FIVEPOINTS ARENA</h1>
       </div>
-      <div data-w-id="6f2bf100-74fb-147c-f3b7-f210f95d007d" style="opacity:0" class="header_stats_container">
-        <div class="header_stat_left-copy">
-          <h1 class="header_stat_item_title">Merch</h1>
-          <h1 class="header_stat_item_totall_map">$1.25M</h1>
-          <h1 class="header_historical_item_title">Historical: $1.94M</h1>
+      <div data-w-id="6f2bf100-74fb-147c-f3b7-f210f95d007d" style="opacity:0" class="header_stats_container_merch">
+          
+          <div class="header_stat_row">
+          <div class="header_stat_dual">
+              <h1 class="header_stat_item_title">Gross Sales</h1>
+    
+            <div class="counter_area_alt flashmillions"><h1 class="header_stat_item_totall_merch ">$</h1><h1 class="header_stat_item_totall_merch millions"></h1><h1 class="header_stat_item_totall_merch">M</h1></div>
+            <h1 class="header_stat_item_title">Historical: $1.94M</h1>
+            </div>
+        <div class="divider"></div>
+        <div class="header_stat_dual">
+          <h1 class="header_stat_item_title">$/ Head</h1>
+
+        <div class="counter_area_alt "><h1 class="header_stat_item_totall_merch ">$6.40</h1></div>
+        <h1 class="header_stat_item_title">Historical: $5.93</h1>
         </div>
-        <div class="header_stat_left">
-          <h1 class="header_stat_item_title">$ / Head</h1>
-          <h1 class="header_stat_item_totall_map">$23.43</h1>
-          <h1 class="header_historical_item_title">Historical: $25.56</h1>
+        
         </div>
+        
+      </div>
       </div><a href="index.html" onclick="OpenLink(this); return false" class="link-block-2 w-inline-block"><img src="images/man_app_nav_arrow.svg" alt=""></a></div>
       <div data-duration-in="300" data-duration-out="100" class="tabs w-tabs">
         <div class="tabs-menu-2 w-tab-menu">
@@ -73,5 +82,33 @@
   <script src="https://d1tdp7z6w94jbb.cloudfront.net/js/jquery-3.3.1.min.js" type="text/javascript" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
   <script src="js/webflow.js" type="text/javascript"></script>
   <!-- [if lte IE 9]><script src="https://cdnjs.cloudflare.com/ajax/libs/placeholders/3.0.2/placeholders.min.js"></script><![endif] -->
+
+  <script>
+      $(document).ready(function() {
+        function makeThisNumberGoUp(number, numberLength, divClass, ColorFlash, timerMax) {
+            function tick() {
+                var oldString = String(number).substr(0, numberLength);
+                number += Math.round(Math.random() * 100) / 100;
+                var newString = String(number).substr(0, numberLength);
+                $(divClass).text(newString);
+                if (oldString !== newString) {
+                 /*  $(NumFlash).fadeOut(100).fadeIn(1000);  */
+                 $(ColorFlash).animate({color: "#36E089",}, 100); 
+                 $(ColorFlash).animate({color: "#fff",}, 1000); 
+                 }
+                
+  
+                /* $(NumFlash).animate({color: 'red' }, 700);  */
+                setTimeout(tick, Math.round(250 + Math.random() * timerMax));
+            };
+            tick();
+        };
+        makeThisNumberGoUp(2.1, 5, '.millions', '.flashmillions', 20000);
+        makeThisNumberGoUp(1.11, 5, '.food_millions', '.flashbeverage', 30000);
+        makeThisNumberGoUp(100, 3, '.parking_k', '.flashparking', 32000);
+        makeThisNumberGoUp(123, 3, '.merch_k', '.flashmerch', 24000);
+        makeThisNumberGoUp(11, 2, '.attendance_k', '.flashattendance', 24000);
+      });
+    </script>
 </body>
 </html>
