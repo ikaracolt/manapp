@@ -1,20 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg width="28px" height="27px" viewBox="0 0 28 27" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<svg width="26px" height="25px" viewBox="0 0 26 25" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
     <!-- Generator: Sketch 53.2 (72643) - https://sketchapp.com -->
-    <title>statistics</title>
+    <title>statistics 2</title>
     <desc>Created with Sketch.</desc>
-    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="individual-show---map" transform="translate(-80.000000, -917.000000)">
-            <g id="Group" transform="translate(-372.000000, 913.000000)">
-                <g id="statistics" transform="translate(453.000000, 5.000000)">
-                    <path d="M13,2 L13,0" id="Path" stroke="#BBBBBB" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
-                    <path d="M0,2 L26,2" id="Path" stroke="#BBBBBB" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
-                    <path d="M14,18 L17.5,24.5" id="Path" stroke="#BBBBBB" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
-                    <path d="M0,2 L0,18 C0,19.105 0.895,20 2,20 L24,20 C25.105,20 26,19.105 26,18 L26,2 L0,2 Z M21.707,7.707 L15.707,13.707 C15.316,14.098 14.684,14.098 14.293,13.707 L12,11.414 L8.707,14.707 C8.512,14.902 8.256,15 8,15 C7.744,15 7.488,14.902 7.293,14.707 L5.293,12.707 C4.902,12.316 4.902,11.684 5.293,11.293 C5.684,10.902 6.316,10.902 6.707,11.293 L8,12.586 L11.293,9.293 C11.684,8.902 12.316,8.902 12.707,9.293 L15,11.586 L20.293,6.293 C20.684,5.902 21.316,5.902 21.707,6.293 C22.098,6.684 22.098,7.316 21.707,7.707 Z" id="Shape" fill="#BBBBBB" fill-rule="nonzero"></path>
-                    <circle id="Oval" fill="#BBBBBB" fill-rule="nonzero" cx="17.5" cy="24.5" r="1.5"></circle>
-                    <path d="M12,18 L8.5,24.5" id="Path" stroke="#BBBBBB" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
-                    <circle id="Oval" fill="#BBBBBB" fill-rule="nonzero" cx="8.5" cy="24.5" r="1.5"></circle>
-                </g>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" opacity="0.5">
+        <g id="statistics-2" transform="translate(1.000000, 1.000000)">
+            <g id="statistics">
+                <path d="M12,1.84615385 L12,0" id="Path" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+                <path d="M0,1.84615385 L24,1.84615385" id="Path" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+                <path d="M12.9230769,16.6153846 L16.1538462,22.6153846" id="Path" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+                <path d="M0,1.84615385 L0,16.6153846 C0,17.6353846 0.826153846,18.4615385 1.84615385,18.4615385 L22.1538462,18.4615385 C23.1738462,18.4615385 24,17.6353846 24,16.6153846 L24,1.84615385 L0,1.84615385 Z M20.0372308,7.11415385 L14.4987692,12.6526154 C14.1378462,13.0135385 13.5544615,13.0135385 13.1935385,12.6526154 L11.0769231,10.536 L8.03723077,13.5756923 C7.85723077,13.7556923 7.62092308,13.8461538 7.38461538,13.8461538 C7.14830769,13.8461538 6.912,13.7556923 6.732,13.5756923 L4.88584615,11.7295385 C4.52492308,11.3686154 4.52492308,10.7852308 4.88584615,10.4243077 C5.24676923,10.0633846 5.83015385,10.0633846 6.19107692,10.4243077 L7.38461538,11.6178462 L10.4243077,8.57815385 C10.7852308,8.21723077 11.3686154,8.21723077 11.7295385,8.57815385 L13.8461538,10.6947692 L18.732,5.80892308 C19.0929231,5.448 19.6763077,5.448 20.0372308,5.80892308 C20.3981538,6.16984615 20.3981538,6.75323077 20.0372308,7.11415385 Z" id="Shape" fill="#FFFFFF" fill-rule="nonzero"></path>
+                <circle id="Oval" fill="#FFFFFF" fill-rule="nonzero" cx="16.1538462" cy="22.6153846" r="1.38461538"></circle>
+                <path d="M11.0769231,16.6153846 L7.84615385,22.6153846" id="Path" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+                <circle id="Oval" fill="#FFFFFF" fill-rule="nonzero" cx="7.84615385" cy="22.6153846" r="1.38461538"></circle>
             </g>
         </g>
     </g>

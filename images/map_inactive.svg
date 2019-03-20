@@ -1,17 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg width="26px" height="20px" viewBox="0 0 26 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<svg width="24px" height="19px" viewBox="0 0 24 19" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
     <!-- Generator: Sketch 53.2 (72643) - https://sketchapp.com -->
     <title>map</title>
     <desc>Created with Sketch.</desc>
-    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="individual-show---map" transform="translate(-269.000000, -921.000000)" fill="#BBBBBB" fill-rule="nonzero">
-            <g id="Group" transform="translate(-372.000000, 913.000000)">
-                <g id="map" transform="translate(641.000000, 8.000000)">
-                    <polygon id="Path" points="17 0.185 9 1.798 9 19.797 17 18.2"></polygon>
-                    <path d="M7,1.709 L1.394,0.067 C1.262,0.025 1.14,0 1,0 C0.448,0 0,0.448 0,1 L0,17 C0,17.466 0.325,17.84 0.757,17.951 L7,19.754 L7,1.709 Z" id="Path"></path>
-                    <path d="M25.218,2.044 L19,0.25 L19,18.292 L24.681,19.936 C24.782,19.97 24.887,20 25,20 C25.552,20 26,19.552 26,19 L26,3 C26,2.525 25.659,2.179 25.218,2.044 Z" id="Path"></path>
-                </g>
-            </g>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" fill-opacity="0.5">
+        <g id="map" fill="#FFFFFF" fill-rule="nonzero">
+            <polygon id="Path" points="15.6923077 0.170769231 8.30769231 1.65969231 8.30769231 18.2741538 15.6923077 16.8"></polygon>
+            <path d="M6.46153846,1.57753846 L1.28676923,0.0618461538 C1.16492308,0.0230769231 1.05230769,0 0.923076923,0 C0.413538462,0 0,0.413538462 0,0.923076923 L0,15.6923077 C0,16.1224615 0.3,16.4676923 0.698769231,16.5701538 L6.46153846,18.2344615 L6.46153846,1.57753846 Z" id="Path"></path>
+            <path d="M23.2781538,1.88676923 L17.5384615,0.230769231 L17.5384615,16.8849231 L22.7824615,18.4024615 C22.8756923,18.4338462 22.9726154,18.4615385 23.0769231,18.4615385 C23.5864615,18.4615385 24,18.048 24,17.5384615 L24,2.76923077 C24,2.33076923 23.6852308,2.01138462 23.2781538,1.88676923 Z" id="Path"></path>
         </g>
     </g>
 </svg>

@@ -1761,7 +1761,7 @@ textarea.w-select {
   background-color: #dddddd;
 }
 .w-tab-link.w--current {
-  background-color: #C8C8C8;
+  background-color: #fff;
 }
 .w-tab-content {
   position: relative;
