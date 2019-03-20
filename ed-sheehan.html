@@ -227,9 +227,9 @@
                 var newString = String(number).substr(0, numberLength);
                 $(divClass).text(newString);
                 if (oldString !== newString) {
-                /*  $(NumFlash).fadeOut(100).fadeIn(1000); */
+                 /*  $(NumFlash).fadeOut(100).fadeIn(1000);  */
                  $(ColorFlash).animate({color: "#36E089",}, 100); 
-                 $(ColorFlash).animate({color: "#fff",}, 1000);
+                 $(ColorFlash).animate({color: "#fff",}, 1000); 
                  }
                 
   
@@ -238,7 +238,7 @@
             };
             tick();
         };
-        
+        makeThisNumberGoUp(2.1, 5, '.millions', '.flashmillions', 20000);
         makeThisNumberGoUp(1.11, 5, '.food_millions', '.flashbeverage', 30000);
         makeThisNumberGoUp(100, 3, '.parking_k', '.flashparking', 32000);
         makeThisNumberGoUp(123, 3, '.merch_k', '.flashmerch', 24000);
@@ -246,7 +246,7 @@
       });
     </script>
   
-  <script>
+  <!-- <script>
       $(document).ready(function() {
         function makeMainNumberGoUp(number, numberLength, divClass, ColorFlash, timerMax) {
             function tick() {
@@ -269,17 +269,9 @@
         makeMainNumberGoUp(2.1, 5, '.millions', '.flashmillions', 20000);
         
       });
-    </script>
+    </script> -->
 
-    <script>
     
-    function shoutOut(threat) {
-      console.log('Yo, whats up Patna!' + threat);
-    }
-
-    shoutOut('Kill yo self foo');
-
-    </script>
 
     
 

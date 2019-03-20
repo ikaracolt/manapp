@@ -154,6 +154,9 @@
     text-align:center;
     opacity: 0.5;
   }
+
+  
+
   .verticals_item_total {
     display: inline-block;
     margin-top: 0px;
@@ -275,11 +278,28 @@
     margin-top: 0px;
     margin-bottom: 0px;
     font-family: Roboto, sans-serif;
-    color: #fff;
+    
     font-size: 36px;
     line-height: 42px;
     font-weight: 500;
     justify-content:center;
+  }
+
+  .header_stat_item_totall_map {
+    color: #fff;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-family: Roboto, sans-serif;
+    
+    font-size: 36px;
+    line-height: 42px;
+    font-weight: 500;
+    justify-content:center;
+    
   }
 
   .header_stat_item_dollarhead {
@@ -291,9 +311,10 @@
     margin-bottom: 0px;
     font-family: Roboto, sans-serif;
     color: #fff;
-    font-size: 26px;
+    font-size: 36px;
     line-height: 30px;
     font-weight: 500;
+    justify-content: center;
     
   }
 
@@ -307,6 +328,8 @@
     font-size: 12px;
     line-height: 16px;
     font-weight: 500;
+    justify-content: center;
+    text-align: center;
   }
   .verticals_item_title {
     display: inline-block;
@@ -1146,6 +1169,23 @@
  
 
 @media (max-width: 991px) {
+
+  .header_stat_item_dollarhead {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-family: Roboto, sans-serif;
+    color: #fff;
+    font-size: 26px;
+    line-height: 30px;
+    font-weight: 500;
+    justify-content: center;
+    
+  }
+
   .container {
     position: relative;
     display: -webkit-box;
@@ -1334,6 +1374,7 @@
     font-size: 12px;
     line-height: 16px;
     font-weight: 500;
+    
   }
   
   .date_and_show {
@@ -1872,6 +1913,24 @@
 }
 
 @media (max-width: 767px) {
+
+  .header_stat_item_dollarhead {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-family: Roboto, sans-serif;
+    color: #fff;
+    font-size: 26px;
+    line-height: 30px;
+    font-weight: 500;
+    
+    
+  }
+
+
   .container {
     position: relative;
     display: -webkit-box;
@@ -2059,6 +2118,7 @@
     font-size: 12px;
     line-height: 16px;
     font-weight: 500;
+    justify-content: flex-start;
   }
   
   .date_and_show {
@@ -2586,6 +2646,43 @@
 }
 
 @media (max-width: 479px) {
+
+  .header_stat_item_totall_map {
+    color: #fff;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-family: Roboto, sans-serif;
+    
+    font-size: 26px;
+    line-height: 42px;
+    font-weight: 500;
+    justify-content: flex-start;
+    
+    
+  }
+
+  .header_stat_item_dollarhead {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-family: Roboto, sans-serif;
+    color: #fff;
+    font-size: 26px;
+    line-height: 30px;
+    font-weight: 500;
+    justify-content: flex-start;
+   
+    
+  }
+
+
   .container {
     position: relative;
     display: -webkit-box;
@@ -2764,7 +2861,7 @@
     justify-content:flex-start;
   }
   .header_historical_item_title {
-    display: inline-block;
+    display: flex;
     margin-top: 10px;
     margin-bottom: 0px;
     font-family: Roboto, sans-serif;
@@ -2772,6 +2869,7 @@
     font-size: 12px;
     line-height: 16px;
     font-weight: 500;
+    justify-content: flex-start;
   }
   
   .date_and_show {
