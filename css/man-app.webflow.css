@@ -1,4 +1,16 @@
 
+  html {
+    background: #cbccc8;
+  }
+  
+  .body {
+    background-repeat: no-repeat;
+    background: #cbccc8;
+    background: -webkit-gradient(linear, left top, left bottom, from(#0e497a), to(#192a40));
+    background: -moz-linear-gradient(top, #0e497a, #192a40);
+    filter: progid: DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#cbccc8');
+  }
+  
   .container {
     position: relative;
     display: -webkit-box;
@@ -353,11 +365,7 @@
   .artist_item:active {
     opacity: 0.05;
   }
-  .body {
-    /* background: linear-gradient(315deg, #0e497a, #192A40) fixed no-repeat; */
-    background-image: linear-gradient(145deg, #0e497a, #192A40);
-    min-height: 100%;
-  }
+  
   .artist_name {
     display: -webkit-box;
     display: -webkit-flex;
