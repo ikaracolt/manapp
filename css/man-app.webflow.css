@@ -2,6 +2,10 @@
   html {
     background: #0e497a;
   }
+
+  a {
+    text-decoration: none!important;
+  }
   
   .body {
     background-repeat: no-repeat;
@@ -68,6 +72,8 @@
     text-decoration: none!important;
     
   }
+
+ 
 
   
 
@@ -292,27 +298,7 @@
     justify-content: center;
   }
 
-  .header_stats_container_artist {
-    position: absolute;
-    left: 0%;
-    top: 150px;
-    right: 0%;
-    display: -webkit-box;
-    display: -webkit-flex;
-    display: -ms-flexbox;
-    display: flex;
-    width: auto;
-    height: 110px;
-    margin-right: 20px;
-    margin-left: 20px;
-    -webkit-box-align: center;
-    -webkit-align-items: center;
-    -ms-flex-align: center;
-    align-items: center;
-    border-radius: 2px;
-    background-color: hsla(0, 0%, 100%, .1);
-    
-  }
+  
 
   
 
