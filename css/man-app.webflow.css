@@ -354,8 +354,8 @@
     opacity: 0.05;
   }
   .body {
-    /* background: linear-gradient(315deg, #0e497a, #192A40) fixed no-repeat; */
-    background-image: linear-gradient(145deg, #0e497a, #192A40);
+    background: linear-gradient(315deg, #0e497a, #192A40) fixed no-repeat;
+    /* background-image: linear-gradient(145deg, #0e497a, #192A40); */
     min-height: 100%;
   }
   .artist_name {
