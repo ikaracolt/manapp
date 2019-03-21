@@ -73,6 +73,10 @@
     
   }
 
+  .compare-dropdown {
+    padding-left:5px;
+  }
+
  
 
   
@@ -1063,7 +1067,7 @@
   .link-block-2 {
     position: absolute;
     left: 20px;
-    top: 20px;
+    top: 15px;
   }
   .link-block-3 {
     display: -webkit-box;
@@ -2992,7 +2996,7 @@
     display: -webkit-flex;
     display: -ms-flexbox;
     display: flex;
-    width: 60%;
+    width: 70%;
   }
   .show_list_labels_right {
     width: 40%;
