@@ -445,10 +445,23 @@
     color: #192A40;
   }
 
-  .header_stats_header_fb {
+  .header_stats_header_food {
     width:100%;
     height:28px;
-    background-color: #47CFAF;
+    background-color: #ab92ed;
+    border-radius: 2px 2px 0px 0px;
+    font-family: roboto;
+    padding-top: 5px;
+    padding-left:10px;
+    font-size: 10px;
+    font-weight: 500;
+    color: #192A40;
+  }
+
+  .header_stats_header_beverage {
+    width:100%;
+    height:28px;
+    background-color: #47cfaf;
     border-radius: 2px 2px 0px 0px;
     font-family: roboto;
     padding-top: 5px;
@@ -461,7 +474,7 @@
   .header_stats_header_parking {
     width:100%;
     height:28px;
-    background-color: #AB92ED;
+    background-color: #a0d467;
     border-radius: 2px 2px 0px 0px;
     font-family: roboto;
     padding-top: 5px;
@@ -649,6 +662,14 @@
     -ms-flex-align: center;
     align-items: center;
     opacity: 0.5;
+  }
+
+
+  .arrow_block_verticals {
+    position: absolute;
+    right: 10px;
+    top: 3px;
+    
   }
   .show_list_labels {
     display: -webkit-box;
