@@ -303,7 +303,9 @@
   }
 
   
-
+  .history_total {
+    color: #fff;
+  }
   
 
   .header_stats_container_merch {
@@ -311,6 +313,17 @@
     left: 0%;
     top: 150px;
     right: 0%;
+    margin-right: 20px;
+    margin-left: 20px;
+    flex-direction: row;
+    overflow: hidden;
+    border-radius: 2px;
+    background-color: hsla(0, 0%, 100%, .1);
+    height: 110px;
+  }
+
+  .header_stats_container_historical_show {
+    margin-bottom: 20px;
     margin-right: 20px;
     margin-left: 20px;
     flex-direction: row;
