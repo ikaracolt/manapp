@@ -175,16 +175,19 @@
   .upgrade_overlay {
     position: fixed;
     display: flex;
-    flex-direction: column;
-    justify-content: flex-end;
+    justify-content: center;
+    align-items: center;
     height: 100vh;
     width: 100vw;
     background-color: rgba(25, 42, 64, 0.9);
     z-index: 1000;
     padding: 20px;
     
+    
 
   }
+
+  
 
   .close_overlay {
     position: absolute;
@@ -196,15 +199,20 @@
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-    align-content: center;
+    
     background-color: #fff;
     padding: 20px;
     border-radius: 40px;
     height: 50%;
+    max-width: 400px;
+    max-height: 300px;
     width: auto;
     box-shadow: 0px 0px 4px 2px rgba(0, 0, 0, 0.2)
+    
 
   }
+
+  
 
   .upgrade_CTA h1 {
     font-family: roboto;
@@ -868,7 +876,7 @@
   }
   
   .list_column_right_header {
-    padding-left: 20px;
+    
     font-family: Roboto, sans-serif;
     color: #fff;
     font-size: 12px;
@@ -880,15 +888,16 @@
     display: -webkit-flex;
     display: -ms-flexbox;
     display: flex;
-    width: 50%;
+    width: 70%;
     justify-content: flex-start;
   }
   .show_list_labels_right {
     display: flex;
     flex-direction: row;
-    width: 50%;
+    justify-content: space-around;
+    width: 30%;
     height: 20px;
-    justify-content: flex-end;
+    
     padding-right:60px;
   }
   .artist_venue {
@@ -1576,6 +1585,7 @@
       }
 
       .show_list_labels_right {
+        
         width: 50%;
         padding-right: 20px;
       }
@@ -1591,6 +1601,21 @@
         width: 60%;
         
       }
+
+.upgrade_overlay {
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    height: 100vh;
+    width: 100vw;
+    background-color: rgba(25, 42, 64, 0.9);
+    z-index: 1000;
+    padding: 20px;
+    
+    
+
+  } 
 
 
     }
