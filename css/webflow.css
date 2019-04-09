@@ -1762,6 +1762,7 @@ textarea.w-select {
 }
 .w-tab-link.w--current {
   background-color: #fff;
+  opacity: 0.5;
 }
 .w-tab-content {
   position: relative;
@@ -1771,6 +1772,7 @@ textarea.w-select {
 .w-tab-pane {
   position: relative;
   display: none;
+  width: 100%;
 }
 .w--tab-active {
   display: block;
